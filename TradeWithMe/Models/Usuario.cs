@@ -4,14 +4,14 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
-namespace MvcMusicStore.Models
+namespace MvcBD.Models
 {
     public class Usuario
     {
         public int Id_Usuario { get; set; }
         public string Nome { get; set; }
         public string Senha { get; set; }
-        public string DataNascimento { get; set; } //como string na base???
+        public DateTime DataNascimento { get; set; } 
         public string Email { get; set; }
         public string Foto { get; set; }
         public string Facebook { get; set; }
