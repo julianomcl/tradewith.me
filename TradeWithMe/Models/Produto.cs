@@ -4,7 +4,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
-namespace MvcMusicStore.Models
+namespace MvcBD.Models
 {
     public class Produto
     {
