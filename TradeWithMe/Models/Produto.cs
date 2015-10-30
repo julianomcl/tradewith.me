@@ -14,7 +14,7 @@ namespace MvcMusicStore.Models
         public string Descricao { get; set; }
         public DateTime Data_Inclusao { get; set; }
         public string Situacao { get; set; }
-        public string Data_Situacao { get; set; } //PQ ESSA INCONSISTENCIA?
+        public DateTime Data_Situacao { get; set; }
         public int Fl_Roupa { get; set; }
         public string Imagem { get; set; }
     }
