@@ -4,7 +4,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
-namespace MvcMusicStore.Models
+namespace MvcBD.Models
 {
     public class Produto
     {
@@ -13,8 +13,13 @@ namespace MvcMusicStore.Models
         public int Id_Rotulo { get; set; }
         public string Descricao { get; set; }
         public DateTime Data_Inclusao { get; set; }
+<<<<<<< HEAD
         public int Situacao { get; set; }
         public DateTime Data_Situacao { get; set; } //PQ ESSA INCONSISTENCIA?
+=======
+        public string Situacao { get; set; }
+        public DateTime Data_Situacao { get; set; }
+>>>>>>> origin/master
         public int Fl_Roupa { get; set; }
         public string Imagem { get; set; }
     }
