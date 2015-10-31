@@ -94,6 +94,8 @@
     <Compile Include="Models\Exemplos\OrderDetail.cs" />
     <Compile Include="Models\Exemplos\SampleData.cs" />
     <Compile Include="Models\Exemplos\ShoppingCart.cs" />
+    <Compile Include="Models\Produto.cs" />
+    <Compile Include="Models\Troca.cs" />
     <Compile Include="Models\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\Exemplo\ShoppingCartRemoveViewModel.cs" />

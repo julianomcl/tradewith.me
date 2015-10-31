@@ -11,11 +11,10 @@ namespace MvcMusicStore.Models
         public int Id_Usuario { get; set; }
         public string Nome { get; set; }
         public string Senha { get; set; }
-        public string DataNascimento { get; set; } //como string na base???
+        public DateTime DataNascimento { get; set; } //como string na base???
         public string Email { get; set; }
         public string Foto { get; set; }
         public string Facebook { get; set; }
-        public string Telefone { get; set; }
     }
 
     public class UsuarioDbContext : DbContext
