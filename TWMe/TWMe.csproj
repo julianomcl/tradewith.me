@@ -369,7 +369,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -377,10 +376,8 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-=======
     <Compile Include="Models\Categoria.cs" />
     <Compile Include="Models\Fabricante.cs" />
->>>>>>> origin/master
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Produto.cs" />
     <Compile Include="Models\Rotulo.cs" />
