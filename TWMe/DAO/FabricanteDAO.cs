@@ -1,14 +1,7 @@
 using System;
 using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Web;
 using System.Data;
-using System.Data.SqlClient;
-using System.Configuration;
 using Oracle.DataAccess.Client;
-
-
 using TWMe.Models;
 
 namespace TWMe.DAO
@@ -93,7 +86,7 @@ namespace TWMe.DAO
                         conn.Open();
                         cmd.ExecuteNonQuery();
                     }
-                    catch (SqlException ex)
+                    catch (OracleException ex)
                     {
                         throw new Exception("Ocorreu o erro(BD): " + ex.Message);
                     }
@@ -127,7 +120,7 @@ namespace TWMe.DAO
                         conn.Open();
                         cmd.ExecuteNonQuery();
                     }
-                    catch (SqlException ex)
+                    catch (OracleException ex)
                     {
                         throw new Exception("Ocorreu o erro(BD): " + ex.Message);
                     }

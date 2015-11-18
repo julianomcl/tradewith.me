@@ -13,7 +13,7 @@ namespace TWMe.Models
         public int Id_Rotulo { get; set; }
         public string Descricao { get; set; }
         public DateTime Data_Inclusao { get; set; }
-        public string Situacao { get; set; }
+        public int Situacao { get; set; }
         public DateTime Data_Situacao { get; set; }
         public int Fl_Roupa { get; set; }
         public string Imagem { get; set; }

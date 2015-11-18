@@ -11,8 +11,8 @@ namespace TWMe.Models
         public int Id_Troca { get; set; }
         public int Id_Usuario_Solicitante { get; set; }
         public int Id_Usuario_Detentor { get; set; }
-        public DateTime Data_Troca { get; set; } //PQ NAO DATETIME?
-        public DateTime Data_Inclusao { get; set; } //PONTO ACIMA
+        public DateTime Data_Situacao { get; set; }
+        public DateTime Data_Inclusao { get; set; } 
         public int Situacao { get; set; }
         public int Posicao_Solicitante { get; set; }
         public int Posicao_Detentor { get; set; }
