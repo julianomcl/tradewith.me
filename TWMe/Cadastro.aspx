@@ -1,7 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Cadastro.aspx.cs" Inherits="TWMe.WebForm1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Cadastro.aspx.cs" Inherits="TWMe.Cadastr" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-
-    <h2><%: Title %>.</h2>
+    <h2><%: Title %></h2>
     <p class="text-danger">
         <asp:Literal runat="server" ID="ErrorMessage" />
     </p>
@@ -13,7 +12,7 @@
         <div class="form-group">
             <asp:Label ID="Label2" runat="server" CssClass="col-md-2 control-label">Nome</asp:Label>
             <div class="col-md-10">
-                <asp:TextBox runat="server" ID="TextBox1" CssClass="form-control" />
+                <asp:TextBox runat="server" ID="Nome" CssClass="form-control" />
             </div>
         </div>
         <div class="form-group">
@@ -45,24 +44,24 @@
         <div class="form-group">
             <asp:Label ID="Label1" runat="server" CssClass="col-md-2 control-label">Data de Nascimento</asp:Label>
             <div class="col-md-10">
-                <asp:TextBox runat="server" ID="TextBox4" CssClass="form-control" />
+                <asp:TextBox runat="server" ID="DataNasc" CssClass="form-control" type="date" />
             </div>
         </div>
         <div class="form-group">
             <asp:Label ID="Label3" runat="server" CssClass="col-md-2 control-label">Foto</asp:Label>
             <div class="col-md-10">
-                <asp:FileUpload ID="FileUpload1" runat="server" CssClass="form-control" />
+                <asp:FileUpload ID="Foto" runat="server" CssClass="form-control" />
             </div>
         </div>
         <div class="form-group">
             <asp:Label ID="Label4" runat="server" CssClass="col-md-2 control-label">Facebook</asp:Label>
             <div class="col-md-10">
-                <asp:TextBox runat="server" ID="TextBox8" CssClass="form-control" />
+                <asp:TextBox runat="server" ID="Facebook" CssClass="form-control" />
             </div>
         </div>
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <asp:Button ID="Button1" runat="server" Text="Enviar" CssClass="btn btn-default" />
+                <asp:Button ID="Button1" runat="server" OnClick="SignUp" Text="Enviar" CssClass="btn btn-default" />
             </div>
         </div>
     </div>

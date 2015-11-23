@@ -10,7 +10,7 @@
 namespace TWMe {
     
     
-    public partial class WebForm1 {
+    public partial class Cadastr {
         
         /// <summary>
         /// ErrorMessage control.
@@ -31,13 +31,13 @@ namespace TWMe {
         protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
-        /// TextBox1 control.
+        /// Nome control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox Nome;
         
         /// <summary>
         /// Email control.
@@ -76,13 +76,13 @@ namespace TWMe {
         protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// TextBox4 control.
+        /// DataNasc control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox4;
+        protected global::System.Web.UI.WebControls.TextBox DataNasc;
         
         /// <summary>
         /// Label3 control.
@@ -94,13 +94,13 @@ namespace TWMe {
         protected global::System.Web.UI.WebControls.Label Label3;
         
         /// <summary>
-        /// FileUpload1 control.
+        /// Foto control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload FileUpload1;
+        protected global::System.Web.UI.WebControls.FileUpload Foto;
         
         /// <summary>
         /// Label4 control.
@@ -112,13 +112,13 @@ namespace TWMe {
         protected global::System.Web.UI.WebControls.Label Label4;
         
         /// <summary>
-        /// TextBox8 control.
+        /// Facebook control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox8;
+        protected global::System.Web.UI.WebControls.TextBox Facebook;
         
         /// <summary>
         /// Button1 control.
