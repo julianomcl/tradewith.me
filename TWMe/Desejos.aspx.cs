@@ -18,6 +18,7 @@ namespace TWMe
 
         protected void AddProduto(object sender, EventArgs e)
         {
+            /*
             DesejoDAO desejoDAO = new DesejoDAO();
             Desejo desejo = new Desejo();
             desejo.Id_Rotulo = Convert.ToInt32(Rotulo.SelectedValue.ToString());
@@ -25,6 +26,7 @@ namespace TWMe
                 desejo.Id_Usuario = Convert.ToInt32(Session["IdUsuario"].ToString());
             else
                 desejo.Id_Usuario = 0;
+                */
         }
     }
 }
