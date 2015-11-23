@@ -19,7 +19,7 @@ namespace TWMe
 
         protected void AddProduto(object sender, EventArgs e)
         {
-            ProdutoDAO prodDAO = new ProdutoDAO();
+            /*ProdutoDAO prodDAO = new ProdutoDAO();
             Produto prod = new Produto();
             prod.Data_Inclusao = DateTime.Now;
             prod.Descricao = Descricao.Text;
@@ -29,7 +29,7 @@ namespace TWMe
             else
                 prod.Id_Usuario = 0;
             if (Imagem != null)
-                prod.Imagem = GetRouteUrl(Imagem);
+                prod.Imagem = GetRouteUrl(Imagem);*/
         }
     }
 }

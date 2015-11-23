@@ -16,7 +16,7 @@ namespace TWMe
             Title = "Desejos";
         }
 
-        protected void AddProduto(object sender, EventArgs e)
+        protected void AddDesejo(object sender, EventArgs e)
         {
             /*
             DesejoDAO desejoDAO = new DesejoDAO();

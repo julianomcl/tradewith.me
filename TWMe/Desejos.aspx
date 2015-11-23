@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Desejos.aspx.cs" Inherits="TWMe.Desejos" %>
+﻿<%@ Page Title="Desejos" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Desejos.aspx.cs" Inherits="TWMe.Desejos" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %></h2>
     <p class="text-danger">
@@ -21,13 +21,16 @@
         <div class="form-group">
             <asp:Label ID="Label2" runat="server" CssClass="col-md-2 control-label">Rótulo</asp:Label>
             <div class="col-md-10">
-                <asp:DropDownList ID="Rotulo" runat="server">
-                    <asp:Repeater ID="Repeater1" DataSourceID="SqlDataSource2" runat="server">
-                        <ItemTemplate>
-                          <asp:ListItem Value='<%Eval("Id")%>' Text='<%# Eval("Nome") %>'></asp:ListItem>
-                        </ItemTemplate>
+                <select ID="RotuloDDList">
+                    <asp:Repeater ID="Repeater2" DataSourceID="SqlDataSource2" runat="server">
+                         
+                            <ItemTemplate>
+                                <option value='<%Eval("Id"); %>'><% Eval("Nome"); %></option>
+                            </ItemTemplate>
+                       
                     </asp:Repeater>
-                </asp:DropDownList>
+                </select>  
+                <asp:TextBox runat="server" ID="RotuloTxt" CssClass="hidden" />
             </div>
         </div>
         
