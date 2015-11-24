@@ -9,7 +9,7 @@
         <p class="lead">TradeWith.Me permite que você troque os produtos que não te interessam mais por outros de seu desejo. 
             Cadastre seus produtos que deseja trocar, adicione seus produtos desejos 
             e aguarde com um sistema inovador o match entre você e outra pessoa que deseja um produto que não serve mais para você.</p>
-        <p><a href="~/Cadastro" class="btn btn-primary btn-lg">Comece por aqui</a></p>
+        <p><a runat="server" href="~/Cadastro" class="btn btn-primary btn-lg">Comece por aqui</a></p>
     </div>
 
 
