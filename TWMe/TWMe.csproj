@@ -362,10 +362,17 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DAO\AssuntoDAO.cs" />
     <Compile Include="DAO\BaseDAO.cs" />
     <Compile Include="DAO\CategoriaDAO.cs" />
+    <Compile Include="DAO\DesejoDAO.cs" />
+    <Compile Include="DAO\Editora.cs" />
     <Compile Include="DAO\FabricanteDAO.cs" />
+    <Compile Include="DAO\Genero.cs" />
     <Compile Include="DAO\IBaseDAO.cs" />
+    <Compile Include="DAO\IdiomaDAO.cs" />
+    <Compile Include="DAO\JogoDAO.cs" />
+    <Compile Include="DAO\PlataformaDAO.cs" />
     <Compile Include="DAO\ProdutoDAO.cs" />
     <Compile Include="DAO\RotuloDAO.cs" />
     <Compile Include="DAO\TrocaDAO.cs" />
