@@ -43,12 +43,9 @@ namespace TWMe.DAO
             using (OracleConnection conn = BaseDAO.GetConnection())
             {
                 //Define o comando
-<<<<<<< HEAD
-                using (OracleCommand cmd = new OracleCommand("USUARIO_TAPI.INS", conn))
-=======
+
                 //using (OracleCommand cmd = new OracleCommand("USUARIO_tapi.ins", conn))
                 using (OracleCommand cmd = new OracleCommand("INSERT INTO USUARIO VALUES (p_ID_USUARIO, p_NOME, p_SENHA, p_DATA_NASCIMENTO, p_EMAIL, p_FOTO, p_FACEBOOK)", conn))
->>>>>>> origin/master
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
 
