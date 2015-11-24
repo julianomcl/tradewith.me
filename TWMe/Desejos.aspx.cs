@@ -18,8 +18,14 @@ namespace TWMe
 
         protected void AddDesejo(object sender, EventArgs e)
         {
-            
-                
+
+            DesejoDAO desejoDAO = new DesejoDAO();
+            Desejo desejo = new Desejo();
+            desejo.Id_Rotulo = Convert.ToInt32(RotuloDD.SelectedValue.ToString());
+            if (Session["IdUsuario"] != null)
+                desejo.Id_Usuario = Convert.ToInt32(Session["IdUsuario"].ToString());
+            else
+                desejo.Id_Usuario = 0;
         }
     }
 }

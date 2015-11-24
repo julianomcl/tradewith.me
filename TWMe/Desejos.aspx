@@ -7,12 +7,6 @@
     
     <h4>Meus Desejos</h4>
 
-    <asp:GridView
-          id="GridView1"
-          runat="server"
-          DataSourceID="SqlDataSource1">
-      </asp:GridView>
-
     <div class="form-horizontal">
         <h4>Cadastrar Novo Desejo</h4>
         <hr />
@@ -21,16 +15,18 @@
         <div class="form-group">
             <asp:Label ID="Label2" runat="server" CssClass="col-md-2 control-label">Rótulo</asp:Label>
             <div class="col-md-10">
-                <select ID="RotuloDDList">
-                    <asp:Repeater ID="Repeater2" DataSourceID="SqlDataSource2" runat="server">
-                         
-                            <ItemTemplate>
-                                <option value='<%Eval("Id"); %>'><% Eval("Nome"); %></option>
-                            </ItemTemplate>
-                       
-                    </asp:Repeater>
-                </select>  
-                <asp:TextBox runat="server" ID="RotuloTxt" CssClass="hidden" />
+                <asp:DropDownList ID="RotuloDD" runat="server">
+                    <asp:ListItem Value="1">Battlefield</asp:ListItem>
+                    <asp:ListItem Value="2">GTA IV</asp:ListItem>
+                    <asp:ListItem Value="3">Viol&#227;o</asp:ListItem>
+                    <asp:ListItem Value="4">Notebook DELL</asp:ListItem>
+                    <asp:ListItem Value="5">Tablet Samsung</asp:ListItem>
+                    <asp:ListItem Value="6">iPod 4&#170; Gera&#231;&#227;o</asp:ListItem>
+                    <asp:ListItem Value="7">Rel&#243;gio</asp:ListItem>
+                    <asp:ListItem Value="8">Samsung Galaxy S3</asp:ListItem>
+                    <asp:ListItem Value="9">PlayStation 3</asp:ListItem>
+                    <asp:ListItem Value="10">Nintendo Wii</asp:ListItem>
+                </asp:DropDownList>
             </div>
         </div>
         
@@ -40,20 +36,4 @@
             </div>
         </div>
     </div>
-    <asp:SqlDataSource
-          id="SqlDataSource1"
-          runat="server"
-          DataSourceMode="DataReader"
-          ConnectionString="<%$ ConnectionStrings:OracleConnectionString %>"
-          SelectCommand="SELECT r.nome as Nome,
-                FROM desejo d, rotulo r WHERE d.id_rotulo = r.id_rotulo">
-      </asp:SqlDataSource>
-    <asp:SqlDataSource
-          id="SqlDataSource2"
-          runat="server"
-          DataSourceMode="DataReader"
-          ConnectionString="<%$ ConnectionStrings:OracleConnectionString %>"
-          SelectCommand="SELECT r.id_rotulo as Id, r.nome as Nome 
-                FROM rotulo r">
-      </asp:SqlDataSource>
 </asp:Content>
