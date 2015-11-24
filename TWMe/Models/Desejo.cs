@@ -8,6 +8,7 @@ namespace TWMe.Models
 {
     public class Desejo
     {
+        public int Id_Desejo { get; set; }
         public int Id_Usuario { get; set; }
         public int Id_Rotulo { get; set; }
         public int Id_Fabricante { get; set; }

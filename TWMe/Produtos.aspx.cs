@@ -13,7 +13,7 @@ namespace TWMe
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Session["IdUsuario"] = 0;
         }
 
         protected void AddProduto(object sender, EventArgs e)

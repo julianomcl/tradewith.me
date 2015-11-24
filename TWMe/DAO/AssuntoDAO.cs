@@ -8,7 +8,6 @@ using System.Data.SqlClient;
 using System.Configuration;
 using Oracle.DataAccess.Client;
 using TWMe.Models;
-using MvcBD.Models;
 
 namespace TWMe.DAO
 {

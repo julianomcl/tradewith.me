@@ -7,7 +7,6 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Configuration;
 using Oracle.DataAccess.Client;
-using MvcBD.Models;
 
 
 using TWMe.Models;

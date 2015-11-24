@@ -43,7 +43,7 @@ namespace TWMe.DAO
             using (OracleConnection conn = BaseDAO.GetConnection())
             {
                 //Define o comando
-                using (OracleCommand cmd = new OracleCommand("USUARIO_tapi.ins", conn))
+                using (OracleCommand cmd = new OracleCommand("USUARIO_TAPI.INS", conn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
 
