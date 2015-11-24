@@ -22,15 +22,6 @@ namespace TWMe {
         protected global::System.Web.UI.WebControls.Literal ErrorMessage;
         
         /// <summary>
-        /// GridView1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView1;
-        
-        /// <summary>
         /// Label2 control.
         /// </summary>
         /// <remarks>
@@ -40,13 +31,17 @@ namespace TWMe {
         protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
+<<<<<<< HEAD
         /// RotuloTxt control.
+=======
+        /// RotuloDD control.
+>>>>>>> origin/master
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox RotuloTxt;
+        protected global::System.Web.UI.WebControls.DropDownList RotuloDD;
         
         /// <summary>
         /// Button1 control.
@@ -56,6 +51,7 @@ namespace TWMe {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
+<<<<<<< HEAD
         
         /// <summary>
         /// SqlDataSource1 control.
@@ -65,5 +61,7 @@ namespace TWMe {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
+=======
+>>>>>>> origin/master
     }
 }
