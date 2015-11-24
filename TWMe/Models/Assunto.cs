@@ -4,7 +4,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
-namespace MvcBD.Models
+namespace TWMe.Models
 {
     public class Assunto
     {
