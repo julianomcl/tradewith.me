@@ -401,11 +401,20 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Assunto.cs" />
     <Compile Include="Models\Categoria.cs" />
+    <Compile Include="Models\Desejo.cs" />
+    <Compile Include="Models\Editora.cs" />
     <Compile Include="Models\Fabricante.cs" />
+    <Compile Include="Models\Genero.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Idioma.cs" />
+    <Compile Include="Models\Jogo.cs" />
+    <Compile Include="Models\Livro.cs" />
+    <Compile Include="Models\Plataforma.cs" />
     <Compile Include="Models\Produto.cs" />
     <Compile Include="Models\Rotulo.cs" />
+    <Compile Include="Models\Roupa.cs" />
     <Compile Include="Models\Troca.cs" />
     <Compile Include="Models\Usuario.cs" />
     <Compile Include="Produtos.aspx.cs">

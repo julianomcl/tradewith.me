@@ -22,7 +22,7 @@ namespace TWMe
             Produto prod = new Produto();
             prod.Data_Inclusao = DateTime.Now;
             prod.Descricao = Descricao.Text;
-            prod.Id_Rotulo = Convert.ToInt32(RotuloTxt.Text);
+            prod.Id_Rotulo = Convert.ToInt32(RotuloDD.SelectedValue.ToString());
             if (Session["IdUsuario"] != null)
                 prod.Id_Usuario = Convert.ToInt32(Session["IdUsuario"].ToString());
             else
