@@ -13,20 +13,20 @@ namespace TWMe
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Title = "Desejos";
+            
         }
 
         protected void AddDesejo(object sender, EventArgs e)
         {
-            /*
+            
             DesejoDAO desejoDAO = new DesejoDAO();
             Desejo desejo = new Desejo();
-            desejo.Id_Rotulo = Convert.ToInt32(Rotulo.SelectedValue.ToString());
+            desejo.Id_Rotulo = Convert.ToInt32(RotuloTxt.Text);
             if (Session["IdUsuario"] != null)
                 desejo.Id_Usuario = Convert.ToInt32(Session["IdUsuario"].ToString());
             else
                 desejo.Id_Usuario = 0;
-                */
+                
         }
     }
 }
